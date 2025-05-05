@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rumo ao TJ-SP by Chat & Gi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topo">
+    <img src="https://chat.openai.com/cdn-cgi/imagedelivery/URL_IMAGEM_CAPA" alt="Capa Rumo ao TJ-SP by Chat & Gi" class="capa"/>
+    <h1>Rumo ao TJ-SP by Chat & Gi</h1>
+    <p class="versiculo">“Tudo posso naquele que me fortalece.” (Filipenses 4:13)</p>
+    <a href="#inicio" class="botao-estudo">Começar meus estudos!</a>
+  </header>
+
+  <main id="inicio" class="conteudo">
+    <section class="bloco">
+      <h2>📒 Cadernos Digitais</h2>
+      <p>Acesse resumos, flashcards, simulados e muito mais.</p>
+    </section>
+
+    <section class="bloco">
+      <h2>🧠 Painel de Desempenho</h2>
+      <p>Veja seu progresso nos estudos com gráficos e alertas motivacionais.</p>
+    </section>
+
+    <section class="bloco">
+      <h2>⏳ Foco CG – Timer de Estudos</h2>
+      <p>Estude com o método Pomodoro e bloqueie distrações.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com 💻 por Chat & Gi — 2025</p>
+  </footer>
+</body>
+</html>
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffafc;
+  color: #333;
+}
+
+.topo {
+  text-align: center;
+  padding: 2rem;
+  background: #ffd4e3;
+  border-bottom: 3px solid #fca1c5;
+}
+
+.capa {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.botao-estudo {
+  background: #f94d92;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.conteudo {
+  padding: 2rem;
+}
+
+.bloco {
+  background: #fff;
+  border-left: 5px solid #f94d92;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffd4e3;
+  color: #444;
+}
