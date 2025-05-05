@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QG Rumo ao TJ-SP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Página Inicial -->
+  <header class="topo">
+    <img src="https://raw.githubusercontent.com/giovannatimoteo/qgtjsp/main/imagens/capa_qg_chat_e_gi.png" alt="Capa do QG com Gi e Chat animados" class="capa">
+    <h1>Rumo ao TJ-SP by Chat & Gi ⚖️💻👩🏽‍💻</h1>
+    <p class="motivacional">Tudo posso naquele que me fortalece. 💖</p>
+    <a href="#painel-metas" class="botao-inicio">Começar meus estudos!</a>
+  </header>
+
+  <!-- Painel de Metas -->
+  <section id="painel-metas">
+    <h2>🎯 Painel de Metas</h2>
+    <p>Acompanhe suas metas semanais e mensais para se manter no foco!</p>
+    <!-- Aqui vamos inserir a estrutura dinâmica depois -->
+    <div class="painel-metas">
+      <ul>
+        <li>✅ Meta 1: Estudar Português - Semana 1</li>
+        <li>📌 Meta 2: Simulado de Informática - Domingo</li>
+        <li>🎁 Recompensa: Chocolate se cumprir 3 metas!</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>Feito com 💖 por Chat & Gi | 2025</p>
+  </footer>
+</body>
+</html>
