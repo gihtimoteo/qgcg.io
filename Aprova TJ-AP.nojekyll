@@ -8,17 +8,24 @@
 </head>
 <body>
   <header class="topo">
-    <img src="https://chat.openai.com/cdn-cgi/imagedelivery/URL_IMAGEM_CAPA" alt="Capa Rumo ao TJ-SP by Chat & Gi" class="capa"/>
+      <img src="https://raw.githubusercontent.com/giovannatimoteo/qgtjsp/main/imagens/capa_qg_chat_e_gi.png" alt="Capa do QG
     <h1>Rumo ao TJ-SP by Chat & Gi</h1>
-    <p class="versiculo">“Tudo posso naquele que me fortalece.” (Filipenses 4:13)</p>
+    <p class="versiculo">“Esforça-te, e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo por onde quer que andares.” – Josué 1:9</p>
     <a href="#inicio" class="botao-estudo">Começar meus estudos!</a>
   </header>
 
-  <main id="inicio" class="conteudo">
-    <section class="bloco">
-      <h2>📒 Cadernos Digitais</h2>
-      <p>Acesse resumos, flashcards, simulados e muito mais.</p>
-    </section>
+  <!-- Painel de Metas -->
+  <section id="painel-metas">
+    <h2>🎯 Painel de Metas</h2>
+    <p>Acompanhe suas metas semanais e mensais para se manter no foco!</p>
+    <!-- Aqui vamos inserir a estrutura dinâmica depois -->
+    <div class="painel-metas">
+      <ul>
+        <li>✅ Meta 1: Estudar Português - Semana 1</li>
+        <li>📌 Meta 2: Simulado de Informática - Domingo</li>
+        <li>🎁 Recompensa: Chocolate se cumprir 3 metas!</li>
+  </section>
+
 
     <section class="bloco">
       <h2>🧠 Painel de Desempenho</h2>
@@ -32,7 +39,7 @@
   </main>
 
   <footer>
-    <p>Feito com 💻 por Chat & Gi — 2025</p>
+   <p>Feito com 💖 por Chat & Gi | 2025</p>
   </footer>
 </body>
 </html>
