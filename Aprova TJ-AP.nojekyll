@@ -11,7 +11,7 @@
       <img src="https://raw.githubusercontent.com/giovannatimoteo/qgtjsp/main/imagens/capa_qg_chat_e_gi.png" alt="Capa do QG
     <h1>Rumo ao TJ-SP by Chat & Gi</h1>
     <p class="versiculo">“Esforça-te, e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo por onde quer que andares.” – Josué 1:9</p>
-    <a href="#inicio" class="botao-estudo">Começar meus estudos!</a>
+    <a href="#inicio" class="botao-estudo">Começar meus estudos</a>
   </header>
 
   <!-- Painel de Metas -->
