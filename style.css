@@ -1,49 +1,51 @@
+
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fffafc;
-  color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
-
-.topo {
-  text-align: center;
-  padding: 2rem;
-  background: #ffd4e3;
-  border-bottom: 3px solid #fca1c5;
+header {
+    text-align: center;
+    background-color: #ffe6f0;
+    padding: 1.5rem;
 }
-
 .capa {
-  width: 100%;
-  max-width: 600px;
-  border-radius: 20px;
-  margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
-.botao-estudo {
-  background: #f94d92;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 12px;
-  text-decoration: none;
-  font-weight: bold;
+h1 {
+    color: #cc0066;
 }
-
-.conteudo {
-  padding: 2rem;
+.versiculo {
+    font-style: italic;
+    color: #888;
 }
-
-.bloco {
-  background: #fff;
-  border-left: 5px solid #f94d92;
-  padding: 1rem 2rem;
-  border-radius: 12px;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+main {
+    padding: 1.5rem;
 }
-
+.painel, .recompensas {
+    background: #fff;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    max-width: 700px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.cronograma li {
+    margin: 0.5rem 0;
+}
+.alerta {
+    color: #d8000c;
+    font-weight: bold;
+}
 footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #ffd4e3;
-  color: #444;
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffe6f0;
+    color: #cc0066;
 }
