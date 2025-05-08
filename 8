@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rumo ao TJ-SP by Chat & Gi</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fdfbfa;
+      color: #2b2b2b;
+    }
+
+    header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem;
+      background-color: #ffe9f0;
+      flex-wrap: wrap;
+    }
+
+    .header-text {
+      max-width: 600px;
+    }
+
+    .header-text h1 {
+      font-size: 2.5rem;
+      color: #1a1a1a;
+      margin-bottom: 0.5rem;
+    }
+
+    .header-text p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+    .start-btn {
+      background-color: #f97c9d;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .start-btn:hover {
+      background-color: #e96587;
+    }
+
+    .header-img img {
+      width: 280px;
+      max-width: 100%;
+      border-radius: 1.5rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .panel {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s;
+    }
+
+    .panel:hover {
+      transform: translateY(-5px);
+    }
+
+    .panel i {
+      font-size: 2rem;
+      color: #f97c9d;
+      margin-bottom: 0.5rem;
+    }
+
+    .panel p {
+      font-weight: 600;
+      font-size: 1rem;
+      color: #2b2b2b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #fff1f5;
+      color: #7a7a7a;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .header-text, .header-img {
+        max-width: 100%;
+      }
+
+      .header-img {
+        margin-top: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-text">
+      <h1>Rumo ao TJ-SP by Chat & Gi</h1>
+      <p>“Esforça-te, e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo por onde quer que andares.” – Josué 1:9</p>
+      <button class="start-btn">Iniciar Sessão de Estudos</button>
+    </div>
+    <div class="header-img">
+      <img src="ImagemInicial.png">
+    </div>
+  </header>
+
+  <main>
+    <div class="grid">
+      <div class="panel">
+        <i class="fa-solid fa-calendar-check"></i>
+        <p>Cronograma de Estudos</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-chart-line"></i>
+        <p>Painel de Desempenho</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-file-pen"></i>
+        <p>Simulados Semanais</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-star"></i>
+        <p>Oração & Motivação</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-bullseye"></i>
+        <p>Foco C&G</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-book-open"></i>
+        <p>Diário de Bordo</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Feito com 💖 por Chat & Gi | 2025
+  </footer>
+
+</body>
+</html>
