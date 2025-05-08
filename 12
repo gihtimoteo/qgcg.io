@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rumo ao TJ-SP by Chat & Gi</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Rumo ao TJ-SP by Chat & Gi</h1>
+      <p class="versiculo">
+        “Esforça-te, e tem bom ânimo; não temas, nem te espantes,<br>
+        porque o Senhor teu Deus é contigo por onde quer que andares.”<br>
+        <span>– Josué 1:9</span>
+      </p>
+      <button id="start-btn">
+        <i class="ph ph-lightning"></i>
+        Iniciar Sessão de Estudos
+      </button>
+    </div>
+    <img src="imagem-capa.png" alt="Imagem de Capa do QG" class="hero-image" />
+  </header>
+
+  <main class="painel">
+    <h2>Escolha um painel para acessar</h2>
+    <div class="grid">
+      <a href="#" class="card"><i class="ph ph-calendar-check"></i> Cronograma de Estudos</a>
+      <a href="#" class="card"><i class="ph ph-target"></i> Metas & Recompensas</a>
+      <a href="#" class="card"><i class="ph ph-brain"></i> Foco C&G</a>
+      <a href="#" class="card"><i class="ph ph-hand-praying"></i> Oração & Motivação</a>
+      <a href="#" class="card"><i class="ph ph-book-open-text"></i> Diário de Bordo</a>
+    </div>
+  </main>
+
+  <footer>
+    Feito com 💖 por Chat & Gi | 2025
+  </footer>
+</body>
+</html>
+
+/* Estilo base do QG */
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Cabeçalho Hero */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 4px solid #f48fb1;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  color: #880e4f;
+  margin-bottom: 1rem;
+}
+
+.versiculo {
+  font-size: 1.1rem;
+  color: #5e4b56;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text button {
+  background-color: #ec407a;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 4px 10px rgba(236, 64, 122, 0.4);
+  transition: background-color 0.3s ease;
+}
+
+.hero-text button:hover {
+  background-color: #d81b60;
+}
+
+.hero-image {
+  flex: 1 1 300px;
+  max-width: 400px;
+  height: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+/* Painel Principal */
+.painel {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #fff0f5;
+}
+
+.painel h2 {
+  font-size: 1.8rem;
+  color: #6a1b9a;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  padding: 0 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid #f8bbd0;
+  border-radius: 20px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 8px rgba(248, 187, 208, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #7b1fa2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card i {
+  font-size: 1.6rem;
+  color: #ec407a;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(236, 64, 122, 0.2);
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-color: #fce4ec;
+  color: #880e4f;
+  border-top: 2px solid #f8bbd0;
+}
