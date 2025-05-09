@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rumo ao TJ-SP by Chat & Gi</title>
+  <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Rumo ao TJ-SP by Chat & Gi</h1>
+      <p class="verse">“Esforça-te, e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo por onde quer que andares.” – Josué 1:9</p>
+      <a href="#inicio" class="btn-main">Iniciar Sessão de Estudos</a>
+    </div>
+    <div class="hero-img">
+      <img src="imagem-capa.png" alt="Capa com Gi e robô C&G">
+    </div>
+  </header>
+
+  <main>
+    <div class="grid">
+      <div class="panel">
+        <i class="fa-solid fa-calendar-check"></i>
+        <p>Cronograma de Estudos</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-chart-line"></i>
+        <p>Painel de Desempenho</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-file-pen"></i>
+        <p>Simulados Semanais</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-star"></i>
+        <p>Oração & Motivação</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-bullseye"></i>
+        <p>Foco C&G</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-book-open"></i>
+        <p>Diário de Bordo</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Feito com 💖 por Chat & Gi | 2025
+  </footer>
+
+</body>
+</html>
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fefcfa;
+  color: #2b2b2b;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #444;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.hero img {
+  max-width: 280px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero button {
+  background-color: #f59cab;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.hero button:hover {
+  background-color: #e58997;
+}
+
+.main-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.button-tile {
+  background: white;
+  border: 1px solid #f1dede;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.button-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.button-icon {
+  margin-bottom: 15px;
+}
+
+.button-icon svg {
+  width: 40px;
+  height: 40px;
+  stroke: #1a1a1a;
+  stroke-width: 1.5;
+}
+
+.button-tile span {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero img {
+    max-width: 200px;
+  }
+}
