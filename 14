@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rumo ao TJ-SP by Chat & Gi</title>
+  <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Rumo ao TJ-SP by Chat & Gi</h1>
+      <p class="verse">“Esforça-te, e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo por onde quer que andares.” – Josué 1:9</p>
+      <a href="#inicio" class="btn-main">Iniciar Sessão de Estudos</a>
+    </div>
+    <div class="hero-img">
+      <img src="imagem-capa.png" alt="Capa com Gi e robô C&G">
+    </div>
+  </header>
+
+  <section id="inicio" class="panels">
+    <a href="cronograma.html" class="panel">
+      <i class="lucide lucide-calendar-check"></i>
+      <span>Painel de Cronograma de Estudos</span>
+    </a>
+    <a href="desempenho.html" class="panel">
+      <i class="lucide lucide-bar-chart"></i>
+      <span>Painel de Desempenho</span>
+    </a>
+    <a href="simulados.html" class="panel">
+      <i class="lucide lucide-file-pen"></i>
+      <span>Simulados Semanais</span>
+    </a>
+    <a href="motivacao.html" class="panel">
+      <i class="lucide lucide-hand-metal"></i>
+      <span>Oração e Motivação</span>
+    </a>
+    <a href="foco.html" class="panel">
+      <i class="lucide lucide-target"></i>
+      <span>Foco C&G</span>
+    </a>
+  </section>
+</body>
+</html>
