@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rumo ao TJ-SP by Chat & Gi</title>
+  <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-text">
+      <h1>Rumo ao TJ-SP by Chat & Gi</h1>
+      <p class="verse">“Esforça-te, e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo por onde quer que andares.” – Josué 1:9</p>
+      <a href="#inicio" class="btn-main">Iniciar Sessão de Estudos</a>
+    </div>
+    <div class="hero-img">
+      <img src="imagem-capa.png" alt="Capa com Gi e robô C&G">
+    </div>
+  </header>
+
+  <main>
+    <div class="grid">
+      <div class="panel">
+        <i class="fa-solid fa-calendar-check"></i>
+        <p>Cronograma de Estudos</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-chart-line"></i>
+        <p>Painel de Desempenho</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-file-pen"></i>
+        <p>Simulados Semanais</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-star"></i>
+        <p>Oração & Motivação</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-bullseye"></i>
+        <p>Foco C&G</p>
+      </div>
+      <div class="panel">
+        <i class="fa-solid fa-book-open"></i>
+        <p>Diário de Bordo</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Feito com 💖 por Chat & Gi | 2025
+  </footer>
+
+</body>
+</html>
