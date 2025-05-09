@@ -1,21 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rumo ao TJ-SP by Chat & Gi</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumo ao TJ-SP by Chat & Gi</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-  <header class="topo">
-    <div class="info">
-      <h1>Rumo ao TJ-SP by Chat & Gi</h1>
-      <p class="versiculo">“Esforça-te, e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo por onde quer que andares.” – Josué 1:9</p>
-      <a href="#painel" class="botao-estudos">Iniciar Sessão de Estudos</a>
-    </div>
-    <img src="capa.png" alt="Capa TJ-SP" class="imagem-capa" />
-  </header>
+    <header class="hero">
+        <div class="hero-text">
+            <h1>Rumo ao TJ-SP by Chat & Gi</h1>
+            <p class="verse">“Esforça-te, e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo por onde quer que andares.” – Josué 1:9</p>
+            <a href="#" class="study-button">Iniciar Sessão de Estudos</a>
+        </div>
+        <img src="imagem-capa.png" alt="Imagem de capa" class="hero-image"/>
+    </header>
+
+    <main class="painel-section">
+        <h2 class="painel-title">Painéis do QG</h2>
+        <div class="painel-grid">
+            <a href="#" class="painel-button"><i data-lucide="calendar"></i>Cronograma de Estudos</a>
+            <a href="#" class="painel-button"><i data-lucide="clock"></i>Foco C&G</a>
+            <a href="#" class="painel-button"><i data-lucide="book-open-text"></i>Simulados</a>
+            <a href="#" class="painel-button"><i data-lucide="notebook"></i>Diário de Bordo</a>
+            <a href="#" class="painel-button"><i data-lucide="heart"></i>Oração & Motivação</a>
+            <a href="#" class="painel-button"><i data-lucide="bar-chart-2"></i>Painel de Desempenho</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Feito com 💖 por Chat & Gi | 2025</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
