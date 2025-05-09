@@ -1,97 +1,112 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #fff;
-    color: #333;
+  background-color: #fefcfa;
+  color: #2b2b2b;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+}
+
+h2 {
+  font-size: 1.1rem;
+  color: #444;
+  font-weight: 400;
+  margin-top: 10px;
 }
 
 .hero {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #f9f0f9, #fbe4f0);
-    padding: 2rem;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
-.hero-text {
-    max-width: 600px;
+.hero img {
+  max-width: 280px;
+  height: auto;
+  border-radius: 10px;
 }
 
-.hero h1 {
-    font-size: 2.5rem;
-    color: #c71585;
+.hero button {
+  background-color: #f59cab;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
 }
 
-.verse {
-    font-size: 1.1rem;
-    color: #555;
-    margin: 1rem 0;
+.hero button:hover {
+  background-color: #e58997;
 }
 
-.study-button {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.75rem 1.5rem;
-    background-color: #ff69b4;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    font-size: 1rem;
-    transition: background-color 0.3s;
+.main-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  padding: 50px 40px;
+  text-align: center;
 }
 
-.study-button:hover {
-    background-color: #e758a2;
+.button-tile {
+  background: white;
+  border: 1px solid #f1dede;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+  text-decoration: none;
+  color: inherit;
 }
 
-.hero-image {
-    max-width: 300px;
-    margin-top: 2rem;
+.button-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
 }
 
-.painel-section {
-    padding: 2rem;
-    text-align: center;
+.button-icon {
+  margin-bottom: 15px;
 }
 
-.painel-title {
-    font-size: 2rem;
-    color: #c71585;
-    margin-bottom: 1rem;
+.button-icon svg {
+  width: 40px;
+  height: 40px;
+  stroke: #1a1a1a;
+  stroke-width: 1.5;
 }
 
-.painel-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1rem;
-    padding: 1rem;
+.button-tile span {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
-.painel-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 1rem;
-    background-color: #ffe6f0;
-    color: #c71585;
-    border-radius: 15px;
-    text-decoration: none;
-    font-size: 1rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: all 0.3s;
-}
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+  }
 
-.painel-button:hover {
-    background-color: #ffd1e8;
-}
-
-footer {
-    background-color: #f9f0f9;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
-    color: #777;
+  .hero img {
+    max-width: 200px;
+  }
 }
