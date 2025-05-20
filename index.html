@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rumo ao TJ-SP by Chat & Gi</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/lucide@latest"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Painel Cronograma | QG Escrevente TJ-SP</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="hero">
-        <div class="hero-text">
-            <h1>Rumo ao TJ-SP by Chat & Gi</h1>
-            <p class="verse">“Esforça-te, e tem bom ânimo; não temas, nem te espantes, porque o Senhor teu Deus é contigo por onde quer que andares.” – Josué 1:9</p>
-            <a href="#" class="study-button">Iniciar Sessão de Estudos</a>
-        </div>
-        <img src="imagem-capa.png" alt="Imagem de capa" class="hero-image"/>
-    </header>
+  <header>
+    <h1>📚 Painel de Estudos - Cronograma TJ-SP</h1>
+  </header>
 
-    <main class="painel-section">
-        <h2 class="painel-title">Painéis do QG</h2>
-        <div class="painel-grid">
-            <a href="#" class="painel-button"><i data-lucide="calendar"></i>Cronograma de Estudos</a>
-            <a href="#" class="painel-button"><i data-lucide="clock"></i>Foco C&G</a>
-            <a href="#" class="painel-button"><i data-lucide="book-open-text"></i>Simulados</a>
-            <a href="#" class="painel-button"><i data-lucide="notebook"></i>Diário de Bordo</a>
-            <a href="#" class="painel-button"><i data-lucide="heart"></i>Oração & Motivação</a>
-            <a href="#" class="painel-button"><i data-lucide="bar-chart-2"></i>Painel de Desempenho</a>
-        </div>
-    </main>
+  <main>
+    <section id="menu">
+      <button onclick="abrirPainel('cronograma')">Abrir Cronograma</button>
+    </section>
 
-    <footer>
-        <p>Feito com 💖 por Chat & Gi | 2025</p>
-    </footer>
+    <section id="painel-cronograma" class="painel">
+      <h2>Escolha a intensidade:</h2>
+      <div class="intensidades">
+        <button onclick="mostrarCronograma('leve')">Leve 💗</button>
+        <button onclick="mostrarCronograma('moderada')">Moderada 💪</button>
+        <button onclick="mostrarCronograma('avancada')">Avançada 🔥</button>
+      </div>
+      <div id="tabela-cronograma"></div>
+    </section>
+  </main>
 
-    <script>
-        lucide.createIcons();
-    </script>
+  <footer>
+    <p>Feito com 💖 por Giovanna e ChatGPT</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
